@@ -1,4 +1,4 @@
-package com.example.firstline
+package com.example.firstline.kotlin02
 
 //主构造函数的特点是没有方法体，直接定义在类名的后面
 /*
@@ -13,7 +13,8 @@ class Student(val sno: String, val grade: Int, name: String, age: Int) : Person(
     constructor():this("a",20){}
 }*/
 
-class Student(name: String, age: Int) : Person(name, age), Study {
+class Student(name: String, age: Int) : Person(name, age),
+    Study {
     override fun readBooks() {
         println(name + " is reading")
     }

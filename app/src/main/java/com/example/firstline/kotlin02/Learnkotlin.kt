@@ -1,8 +1,5 @@
-package com.example.firstline
+package com.example.firstline.kotlin02
 
-import android.util.Log
-import java.util.*
-import kotlin.concurrent.thread
 import kotlin.math.max
 
 fun main() {
@@ -149,7 +146,7 @@ fun main() {
 
     //函数的默认参数值
     printParams(100)
-    printParams(100,"haha")
+    printParams(100, "haha")
     //让str使用默认值
     printParams(num = 20)
     //让num使用默认值

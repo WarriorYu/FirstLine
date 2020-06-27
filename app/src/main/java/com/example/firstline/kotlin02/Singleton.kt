@@ -1,4 +1,4 @@
-package com.example.firstline
+package com.example.firstline.kotlin02
 
 object Singleton {
     fun singletonTest(){
